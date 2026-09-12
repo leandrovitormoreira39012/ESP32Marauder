@@ -54,8 +54,8 @@
 // #define TFT_WIDTH  80
  #define TFT_WIDTH  128 // Marauder Mini
 // #define TFT_WIDTH  240 // ST7789 240 x 240 and 240 x 320
-// #define TFT_HEIGHT 160
- #define TFT_HEIGHT 128 // Marauder Mini
+ #define TFT_HEIGHT 160
+// #define TFT_HEIGHT 128 // Marauder Mini
 // #define TFT_HEIGHT 240 // ST7789 240 x 240
 // #define TFT_HEIGHT 320 // ST7789 240 x 320
 
@@ -168,11 +168,11 @@
 #define TFT_CS   17  // Chip select control pin D8
 #define TFT_DC   16  // Data Command control pin
 #define TFT_RST  5  // Reset pin (could connect to NodeMCU RST, see next line)
-#define TOUCH_CS -1
+#define TOUCH_CS 21
 #define TFT_MISO 19
 #define TFT_MOSI 23
 #define TFT_SCLK 18
-//#define TFT_BL   32
+#define TFT_BL   32
 
 /*
 // ESP32 Marauder 
